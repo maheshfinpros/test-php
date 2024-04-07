@@ -7,7 +7,7 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to Mahesh Blog</h1>
+        <h1>Welcome to Mahesh chandra Blog</h1>
     </header>
     <nav>
         <ul>

@@ -11,7 +11,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 // Deploy using AWS CodeDeploy
-                awsCodeDeploy deploymentType: 's3', applicationName: 'YourCodeDeployApp', s3Bucket: 'your-s3-bucket', region: 'your-region', deploymentGroup: 'your-deployment-group'
+                awsCodeDeploy deploymentType: 's3', applicationName: 'jenkins-project', s3Bucket: 'mahesh-project-codedeploy', region: 'ap-south-1', deploymentGroup: 'jenkins-dg'
             }
         }
     }
